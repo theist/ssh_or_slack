@@ -117,7 +117,8 @@ func main() {
       }
       if err != nil {
         if (*debug) {
-          fmt.Println ("Captured some error: " + err)
+          fmt.Println ("Captured some error")
+          fmt.Println (err)
         }
       }
     }
